@@ -7,7 +7,7 @@ def saludo(request):
     return HttpResponse("Hola Django - Coder")
 
 def alo(request):
-    return HttpResponse ("ya entendimos este :)")
+    return HttpResponse ("ya entendimos")
 
 
 
