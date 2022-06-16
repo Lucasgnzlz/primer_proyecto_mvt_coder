@@ -9,6 +9,12 @@ def saludo(request):
 def alo(request):
     return HttpResponse ("ya entendimos este :)")
 
+def mi_nombre_es(self, nombre):
+    documento_de_texto = f"mi nombre es: {nombre}"
+
+    return HttpResponse(documento_de_texto)
+
+
 
 
 
